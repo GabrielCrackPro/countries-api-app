@@ -1,0 +1,29 @@
+{
+  "name": "countries-api-app",
+  "version": "1.0.0",
+  "description": "App with REST Countries API data",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielCrackPro/countries-api-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielCrackPro/countries-api-app/issues"
+  },
+  "homepage": "https://github.com/GabrielCrackPro/countries-api-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
